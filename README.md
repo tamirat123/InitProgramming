@@ -1,4 +1,4 @@
-          ☆ ┣┫Ё┗└ О ☆
+#          ☆ ┣┫Ё┗└ О ☆
 # Hello there my name is Tamirat Legesse
 # History of Programming
 ## computer invetion and Manhattan Project
