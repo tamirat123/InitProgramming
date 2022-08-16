@@ -1,4 +1,4 @@
-# 🫡 Hello there my name is Tamirat Legesse
+# 🙌 Hello there my name is Tamirat Legesse
 # History of Programming
 ## computer invetion and Manhattan Project
 ## A team of scientists, led by Nicholas Metropolis, constructed a computer called the Mathematical and Numerical Integrator and Calculator. Computers Manhattan project. The Manhattan Project was a research and development undertaking during World War II that produced the first nuclear weapons. Electronic Numerical Integrator and Computer (ENIAC), the first programmable general-purpose electronic digital computer, built during World War II by the United States.
