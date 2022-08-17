@@ -1,4 +1,5 @@
 #          ☆ ┣┫Ё┗└ О ☆
+## Let's summarize what we have seen today about text, calculator and storage
 # Hello there my name is Tamirat Legesse
 # History of Programming
 ## computer invetion and Manhattan Project
