@@ -1,6 +1,7 @@
 from stegano import lsb
 
+secret_Incoded = input("Enter data to be encoded : ")
 
 
-secret = lsb.hide('image.png', '1928371732817')
+secret = lsb.hide('image.png', secret_Incoded)
 secret.save('changed.png')
