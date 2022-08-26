@@ -1,0 +1,12 @@
+1.Hostname command:-If you want to know the name of your host/network simply type hostname.
+                   Adding a -i to the end will display the IP address of your network.
+2.Man command:- Confused about the function of certain Linux commands? Don’t worry, you can easily learn how to use 
+              them right from Linux’s shell by using the man command. For instance, entering man tail will show the 
+              manual instruction of the tail command. 
+3.Top command:- As a terminal equivalent to Task Manager in Windows, the top command will display a list of running processes 
+              and how much CPU each process uses.It’s very useful to monitor system resource usage, especially knowing which 
+              process needs to be terminated because it consumes too many resources.
+4.uname command:- The uname command, short for Unix Name, will print detailed information about your Linux system like the 
+                machine name, operating system, kernel, and so on.
+5.chown command:- In Linux, all files are owned by a specific user. The chown command enables you to change or transfer the ownership 
+                of a file to the specified username. For instance, chown linuxuser2 file.ext will make linuxuser2 as the owner of the file.ext.
